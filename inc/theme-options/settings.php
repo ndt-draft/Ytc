@@ -19,7 +19,7 @@ function custom_theme_options() {
    */
   $custom_settings = array( 
     'contextual_help' => array( 
-      'sidebar'       => 'Site Author'
+      'sidebar'       => ''
     ),
     'sections'        => array( 
       array(
@@ -158,7 +158,7 @@ function custom_theme_options() {
       ),
       array(
         'id'          => 'google_analytics_code',
-        'label'       => 'Google Analytics Code',
+        'label'       => 'Tracking Code',
         'desc'        => '',
         'std'         => '',
         'type'        => 'textarea-simple',
@@ -438,7 +438,7 @@ function custom_theme_options() {
         'id'          => 'facebook',
         'label'       => 'Facebook',
         'desc'        => '',
-        'std'         => '',
+        'std'         => 'http://facebook.com',
         'type'        => 'text',
         'section'     => 'social_network',
         'rows'        => '',
@@ -450,7 +450,7 @@ function custom_theme_options() {
         'id'          => 'twitter',
         'label'       => 'Twitter',
         'desc'        => '',
-        'std'         => '',
+        'std'         => 'http://twitter.com',
         'type'        => 'text',
         'section'     => 'social_network',
         'rows'        => '',
@@ -604,7 +604,7 @@ function custom_theme_options() {
       ),
       array(
         'id'          => 'ytc_main_slider_animation',
-        'label'       => 'Hiệu ứng',
+        'label'       => 'Animation',
         'desc'        => '',
         'std'         => 'fade',
         'type'        => 'radio',
@@ -628,7 +628,7 @@ function custom_theme_options() {
       ),
       array(
         'id'          => 'ytc_main_slider_direction',
-        'label'       => 'Hướng dịch chuyển',
+        'label'       => 'Direction',
         'desc'        => '',
         'std'         => 'horizontal',
         'type'        => 'radio',
@@ -640,20 +640,20 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'horizontal',
-            'label'       => 'Ngang',
+            'label'       => 'Horizontal',
             'src'         => ''
           ),
           array(
             'value'       => 'vertical',
-            'label'       => 'Dọc',
+            'label'       => 'Vertical',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_reverse',
-        'label'       => 'Di chuyển ngược chiều',
-        'desc'        => 'Chuyển slide theo hướng ngược chiều',
+        'label'       => 'Reverse',
+        'desc'        => 'Reverse slider direction',
         'std'         => 'false',
         'type'        => 'radio',
         'section'     => 'ytc_slider_settings',
@@ -664,20 +664,20 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_animation_loop',
-        'label'       => 'Lặp lại slide',
-        'desc'        => 'Có lặp lại slide hay không? Nếu "không" sẽ dừng lại ở slide cuối cùng. Không nên dùng khi có video.',
+        'label'       => 'Animation loop',
+        'desc'        => 'Do not use with video.',
         'std'         => 'true',
         'type'        => 'radio',
         'section'     => 'ytc_slider_settings',
@@ -688,20 +688,20 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_smooth_height',
-        'label'       => 'Thay đổi chiều cao slide mượt và mịn',
-        'desc'        => 'Không dùng khi hiệu ứng là Fade',
+        'label'       => 'Smooth height',
+        'desc'        => 'Do not use if animation is fade.',
         'std'         => 'false',
         'type'        => 'radio',
         'section'     => 'ytc_slider_settings',
@@ -712,19 +712,19 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_start_at',
-        'label'       => 'Bắt đầu từ slide số',
+        'label'       => 'Start at',
         'desc'        => '',
         'std'         => '1',
         'type'        => 'text',
@@ -737,7 +737,7 @@ function custom_theme_options() {
       array(
         'id'          => 'ytc_main_slider_slideshow',
         'label'       => 'Slideshow',
-        'desc'        => 'Slider hoạt động tự động',
+        'desc'        => 'Slider works automatically.',
         'std'         => 'true',
         'type'        => 'radio',
         'section'     => 'ytc_slider_settings',
@@ -748,19 +748,19 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_slideshow_speed',
-        'label'       => 'Tốc độ slideshow (milli giây)',
+        'label'       => 'Slideshow speed (milliseconds)',
         'desc'        => '',
         'std'         => '7000',
         'type'        => 'text',
@@ -772,7 +772,7 @@ function custom_theme_options() {
       ),
       array(
         'id'          => 'ytc_main_slider_animation_speed',
-        'label'       => 'Tốc độ chuyển hiệu ứng (milli giây)',
+        'label'       => 'Animation Speed (milliseconds)',
         'desc'        => '',
         'std'         => '600',
         'type'        => 'text',
@@ -784,7 +784,7 @@ function custom_theme_options() {
       ),
       array(
         'id'          => 'ytc_main_slider_init_delay',
-        'label'       => 'Trễ ở slide đầu (milli giây)',
+        'label'       => 'Init delay',
         'desc'        => '',
         'std'         => '1',
         'type'        => 'text',
@@ -796,7 +796,7 @@ function custom_theme_options() {
       ),
       array(
         'id'          => 'ytc_main_slider_randomize',
-        'label'       => 'Chuyển slide ngẫu nhiên',
+        'label'       => 'Randomize',
         'desc'        => '',
         'std'         => 'false',
         'type'        => 'radio',
@@ -808,19 +808,19 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_pause_on_action',
-        'label'       => 'Dừng slide khi có tác động',
+        'label'       => 'Pause on action',
         'desc'        => '',
         'std'         => 'true',
         'type'        => 'radio',
@@ -832,20 +832,20 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_pause_on_hover',
-        'label'       => 'Dừng slide khi chuột di qua',
-        'desc'        => 'Không nên dùng khi có video.',
+        'label'       => 'Pause on hover',
+        'desc'        => 'Do not use with video.',
         'std'         => 'false',
         'type'        => 'radio',
         'section'     => 'ytc_slider_settings',
@@ -856,19 +856,19 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_control_nav',
-        'label'       => 'Sử dụng thanh điều hướng phân trang slide',
+        'label'       => 'Control nav',
         'desc'        => '',
         'std'         => 'true',
         'type'        => 'radio',
@@ -880,19 +880,19 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),
       ),
       array(
         'id'          => 'ytc_main_slider_direction_nav',
-        'label'       => 'Sử dụng thanh điều hướng để chuyển slide trước và sau',
+        'label'       => 'Direction nav',
         'desc'        => '',
         'std'         => 'true',
         'type'        => 'radio',
@@ -904,12 +904,12 @@ function custom_theme_options() {
         'choices'     => array( 
           array(
             'value'       => 'true',
-            'label'       => 'Có',
+            'label'       => 'On',
             'src'         => ''
           ),
           array(
             'value'       => 'false',
-            'label'       => 'Không',
+            'label'       => 'Off',
             'src'         => ''
           )
         ),

@@ -3,301 +3,87 @@ msgstr ""
 "Project-Id-Version: YTC v1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-08 20:47:44+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2013-06-08 22:06:25+0000\n"
+"Last-Translator: thanh4890 <thanh4890@demo.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-Language: \n"
-"X-Poedit-Country: \n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: \n"
+"X-Poedit-Basepath: ../\n"
 "X-Poedit-Bookmarks: \n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: content-single.php:32
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:136
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:178
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:126
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:152
+#: archive-video.php:12
+#: header.php:146
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:27
 #@ ytc
-msgid "% comments"
-msgstr "% bình luận"
-
-#: comments.php:20
-#@ ytc
-msgid "% comments to this article"
-msgstr "Có % bình luận tới bài viết này"
-
-#: inc/function-utility.php:10
-#@ ytc
-msgid "&laquo; Previous Posts"
-msgstr "&laquo; Bài cũ hơn"
-
-#: content-single.php:31
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:135
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:177
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:125
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:151
-#@ ytc
-msgid "1 comment"
-msgstr "1 bình luận"
-
-#: comments.php:19
-#@ ytc
-msgid "1 comment to this article"
-msgstr "Có 1 bình luận tới bài viết này"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:109
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:116
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:109
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:116
-#@ ytc
-msgid "Ad Image"
-msgstr "Ảnh quảng cáo"
-
-#: functions.php:287
-#@ ytc
-msgid "Admin"
-msgstr "Admin"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:31
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:31
-#@ ytc
-msgid "Advertising"
-msgstr "Quảng cáo"
+msgid "Video"
+msgstr ""
 
 #: archive.php:20
 #: archive.php:23
 #: archive.php:26
 #@ ytc
 msgid "Archive for"
-msgstr "Lưu trữ của"
-
-#: content-single.php:71
-#@ ytc
-msgid "Article by"
-msgstr "Bài viết bởi"
+msgstr ""
 
 #: archive.php:29
 #@ ytc
 msgid "Author Archive"
-msgstr "Lưu trữ của tác giả"
-
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:51
-#@ ytc
-msgid "Background color:"
-msgstr "Màu nền:"
+msgstr ""
 
 #: archive.php:32
 #@ ytc
 msgid "Blog Archives"
-msgstr "Lưu trữ Blog"
+msgstr ""
 
-#: functions.php:162
+#: comments.php:5
 #@ ytc
-msgid "Blog Main Sidebar"
-msgstr "Sidebar chính của Blog"
+msgid "You cannot access this file directly."
+msgstr ""
 
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:58
+#: comments.php:11
 #@ ytc
-msgid "Blue"
-msgstr "Xanh lam"
+msgid "This post is password protected. Enter password to view the comments."
+msgstr ""
 
-#: functions.php:320
+#: comments.php:18
 #@ ytc
-msgid "Cancel reply"
-msgstr "Thoát trả lời"
+msgid "No comments to this article"
+msgstr ""
 
-#: inc/video-post-type/video-post-type.php:217
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:26
+#: comments.php:19
 #@ ytc
-msgid "Category"
-msgstr "Chuyên mục"
+msgid "1 comment to this article"
+msgstr ""
 
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:74
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:58
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:48
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:54
+#: comments.php:20
 #@ ytc
-msgid "Category:"
-msgstr "Chuyên mục:"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:108
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:115
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:108
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:115
-#@ ytc
-msgid "Click here to view this ad."
-msgstr "Click để xem quảng cáo này."
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:34
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:37
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:34
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:37
-#@ ytc
-msgid "Click to view this advertising."
-msgstr "Click để xem quảng cáo này."
+msgid "% comments to this article"
+msgstr ""
 
 #: comments.php:36
 #@ ytc
 msgid "Comments are closed."
-msgstr "Bình luận đã bị đóng."
+msgstr ""
 
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:104
+#: content-notfound.php:2
 #@ ytc
-msgid "Digg:"
-msgstr "Digg:"
+msgid "No posts were found!"
+msgstr ""
 
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:8
+#: content-page.php:12
+#: content-single.php:52
 #@ ytc
-msgid "Display Category Post Widget"
-msgstr "Hiển thị bài viết theo chuyên mục"
-
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:8
-#@ ytc
-msgid "Display Combo Post Widget which includes popular posts and recent posts"
-msgstr "Hiển thị Combo widget, những bài có số lượng comment nhiều và những bài mới nhất"
-
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:8
-#@ ytc
-msgid "Display Recent Post Widget, each post has its thumbnail"
-msgstr "Hiện widget bài mới, mỗi bài sẽ có ảnh thumbnail"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:8
-#@ ytc
-msgid "Displays Ad 370x120 Sidebar Widget"
-msgstr "Hiển thị widget quảng cáo có cỡ ảnh 370x120"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:8
-#@ ytc
-msgid "Displays Ad Sidebar Widget"
-msgstr "Hiển thị widget quảng cáo"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:8
-#@ ytc
-msgid "Displays Social Sidebar Widget"
-msgstr "Hiển thị widget mạng xã hội"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:109
-#@ ytc
-msgid "Dribbble:"
-msgstr "Dribbble:"
-
-#: functions.php:345
-#@ ytc
-msgid "Email"
-msgstr "Email"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:79
-#@ ytc
-msgid "Facebook:"
-msgstr "Facebook:"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:114
-#@ ytc
-msgid "Flickr:"
-msgstr "Flickr:"
-
-#: functions.php:132
-#@ ytc
-msgid "Footer Column Sidebar 1"
-msgstr "Sidebar cột thứ 1 của footer"
-
-#: functions.php:142
-#@ ytc
-msgid "Footer Column Sidebar 2"
-msgstr "Sidebar cột thứ 2 của footer"
-
-#: functions.php:152
-#@ ytc
-msgid "Footer Column Sidebar 3"
-msgstr "Sidebar cột thứ 3 của footer"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:89
-#@ ytc
-msgid "Google Plus:"
-msgstr "Google Plus:"
-
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:56
-#@ ytc
-msgid "Green"
-msgstr "Xanh lá"
-
-#: functions.php:102
-#@ ytc
-msgid "Homepage Column Sidebar 1"
-msgstr "Sidebar cột thứ 1 của trang chủ"
-
-#: functions.php:112
-#@ ytc
-msgid "Homepage Column Sidebar 2"
-msgstr "Sidebar cột thứ 2 của trang chủ"
-
-#: functions.php:122
-#@ ytc
-msgid "Homepage Main Sidebar"
-msgstr "Sidebar chính trang chủ"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:55
-#@ ytc
-msgid "Image Link 1 (110x110):"
-msgstr "Link ảnh 1 (110x110):"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:55
-#@ ytc
-msgid "Image Link 1 (370x120):"
-msgstr "Link ảnh 1 (370x120)"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:70
-#@ ytc
-msgid "Image Link 2 (110x110)"
-msgstr "Link ảnh 2 (110x110)"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:70
-#@ ytc
-msgid "Image Link 2 (370x120)"
-msgstr "Link ảnh 2 (370x120)"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:144
-#@ ytc
-msgid "Instagram:"
-msgstr "Instagram:"
-
-#: functions.php:319
-#@ ytc
-msgid "Leave a reply"
-msgstr "Gửi trả lời"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:119
-#@ ytc
-msgid "Linkedin:"
-msgstr "Linkedin:"
-
-#: functions.php:90
-#@ ytc
-msgid "Main Menu"
-msgstr "Main Menu"
-
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:160
-#@ ytc
-msgid "More post..."
-msgstr "Xem nhiều bài hơn..."
-
-#: functions.php:340
-#@ ytc
-msgid "Name"
-msgstr "Tên"
-
-#: inc/function-utility.php:13
-#@ ytc
-msgid "Next Posts &raquo;"
-msgstr "Bài mới hơn &raquo;"
+msgid "Page %"
+msgstr ""
 
 #: content-single.php:30
 #: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:134
@@ -306,107 +92,268 @@ msgstr "Bài mới hơn &raquo;"
 #: inc/widget/ytc-video-widget/ytc-video-widget.php:150
 #@ ytc
 msgid "No comments"
-msgstr "0 bình luận"
+msgstr ""
 
-#: comments.php:18
+#: content-single.php:31
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:135
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:177
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:125
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:151
 #@ ytc
-msgid "No comments to this article"
-msgstr "Chưa có bình luận tới bài viết này"
+msgid "1 comment"
+msgstr ""
 
-#: content-notfound.php:2
+#: content-single.php:32
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:136
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:178
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:126
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:152
 #@ ytc
-msgid "No posts were found!"
-msgstr "Không có bài viết nào!"
+msgid "% comments"
+msgstr ""
+
+#: content-single.php:59
+#@ ytc
+msgid "Tags: "
+msgstr ""
+
+#: content-single.php:71
+#@ ytc
+msgid "Article by"
+msgstr ""
+
+#: footer.php:41
+#@ ytc
+msgid "Proudly powered by WordPress"
+msgstr ""
+
+#: functions.php:89
+#@ ytc
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:90
+#@ ytc
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:102
+#@ ytc
+msgid "Homepage Column Sidebar 1"
+msgstr ""
+
+#: functions.php:104
+#@ ytc
+msgid "The homepage column sidebar 1 area"
+msgstr ""
+
+#: functions.php:112
+#@ ytc
+msgid "Homepage Column Sidebar 2"
+msgstr ""
+
+#: functions.php:114
+#@ ytc
+msgid "The homepage column sidebar 2 area"
+msgstr ""
+
+#: functions.php:122
+#@ ytc
+msgid "Homepage Main Sidebar"
+msgstr ""
+
+#: functions.php:124
+#@ ytc
+msgid "The homepage sidebar area"
+msgstr ""
+
+#: functions.php:132
+#@ ytc
+msgid "Footer Column Sidebar 1"
+msgstr ""
+
+#: functions.php:134
+#@ ytc
+msgid "The footer column sidebar 1 area"
+msgstr ""
+
+#: functions.php:142
+#@ ytc
+msgid "Footer Column Sidebar 2"
+msgstr ""
+
+#: functions.php:144
+#@ ytc
+msgid "The footer column sidebar 2 area"
+msgstr ""
+
+#: functions.php:152
+#@ ytc
+msgid "Footer Column Sidebar 3"
+msgstr ""
+
+#: functions.php:154
+#@ ytc
+msgid "The footer column sidebar 3 area"
+msgstr ""
+
+#: functions.php:162
+#@ ytc
+msgid "Blog Main Sidebar"
+msgstr ""
+
+#: functions.php:164
+#@ ytc
+msgid "The blog sidebar area"
+msgstr ""
+
+#: functions.php:172
+#@ ytc
+msgid "Single Blog Post Sidebar"
+msgstr ""
+
+#: functions.php:174
+#@ ytc
+msgid "The single blog post sidebar area"
+msgstr ""
+
+#: functions.php:182
+#@ ytc
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:184
+#@ ytc
+msgid "The shop sidebar area"
+msgstr ""
+
+#: functions.php:192
+#@ ytc
+msgid "Single Product Sidebar"
+msgstr ""
+
+#: functions.php:194
+#@ ytc
+msgid "The single product sidebar area"
+msgstr ""
 
 #: functions.php:202
 #@ ytc
 msgid "Normal Page Sidebar"
-msgstr "Sidebar của trang bình thường"
+msgstr ""
 
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:75
+#: functions.php:204
 #@ ytc
-msgid "Number of posts to show each tab:"
-msgstr "Số lượng bài muốn hiện mỗi trang"
+msgid "The normal page sidebar area"
+msgstr ""
 
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:90
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:83
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:104
+#: functions.php:212
 #@ ytc
-msgid "Number of posts to show:"
-msgstr "Số lượng bài muốn hiển thị:"
+msgid "404 Page Sidebar"
+msgstr ""
 
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:57
+#: functions.php:214
 #@ ytc
-msgid "Orange"
-msgstr "Cam"
+msgid "The 404 page sidebar area"
+msgstr ""
 
-#: content-page.php:12
-#: content-single.php:52
+#: functions.php:222
 #@ ytc
-msgid "Page %"
-msgstr "Trang %"
+msgid "Video Page Sidebar"
+msgstr ""
 
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:124
+#: functions.php:224
 #@ ytc
-msgid "Picasa:"
-msgstr "Picasa:"
+msgid "The video page sidebar area"
+msgstr ""
 
-#: functions.php:269
+#: functions.php:232
 #@ ytc
-msgid "Pingback"
-msgstr "Pingback"
+msgid "Single Video Page Sidebar"
+msgstr ""
 
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:99
+#: functions.php:234
 #@ ytc
-msgid "Pinterest:"
-msgstr "Pinterest:"
-
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:26
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:85
-#@ ytc
-msgid "Popular Posts"
-msgstr "Bài Hot"
-
-#: functions.php:321
-#@ ytc
-msgid "Post Comment"
-msgstr "Gửi bình luận"
-
-#: inc/function-utility.php:27
-#@ ytc
-msgid "Read more..."
-msgstr "Đọc thêm..."
-
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:25
-#@ ytc
-msgid "Recent Post"
-msgstr "Bài mới"
-
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:27
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:86
-#@ ytc
-msgid "Recent Posts"
-msgstr "Bài Mới"
-
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:54
-#@ ytc
-msgid "Red"
-msgstr "Đỏ"
-
-#: inc/related-post.php:38
-#@ ytc
-msgid "Related posts"
-msgstr "Bài liên quan"
+msgid "The single video page sidebar area"
+msgstr ""
 
 #: functions.php:262
 #@ ytc
 msgid "Reply"
-msgstr "Trả lời"
+msgstr ""
 
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:149
+#: functions.php:269
 #@ ytc
-msgid "Rss:"
-msgstr "Rss:"
+msgid "Pingback"
+msgstr ""
+
+#: functions.php:287
+#@ ytc
+msgid "Admin"
+msgstr ""
+
+#: functions.php:293
+#@ ytc
+msgid "on"
+msgstr ""
+
+#: functions.php:293
+#@ ytc
+msgid "at"
+msgstr ""
+
+#: functions.php:303
+#@ ytc
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:318
+#, php-format
+#@ ytc
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: functions.php:319
+#@ ytc
+msgid "Leave a reply"
+msgstr ""
+
+#: functions.php:320
+#@ ytc
+msgid "Cancel reply"
+msgstr ""
+
+#: functions.php:321
+#@ ytc
+msgid "Post Comment"
+msgstr ""
+
+#: functions.php:340
+#@ ytc
+msgid "Name"
+msgstr ""
+
+#: functions.php:345
+#@ ytc
+msgid "Email"
+msgstr ""
+
+#: functions.php:350
+#@ ytc
+msgid "Website"
+msgstr ""
+
+#: header.php:55
+#: header.php:167
+#@ ytc
+msgid "Select a page"
+msgstr ""
+
+#: header.php:114
+#: searchform.php:2
+#@ ytc
+msgid "Search..."
+msgstr ""
 
 #: header.php:116
 #: searchform.php:3
@@ -421,140 +368,102 @@ msgstr "Rss:"
 #: sidebar.php:5
 #@ ytc
 msgid "Search"
-msgstr "Tìm kiếm"
+msgstr ""
 
-#: search-all.php:12
-#: search-post.php:12
-#: search-video.php:12
+#: header.php:124
 #@ ytc
-msgid "Search Results for: "
-msgstr "Kết quả tìm kiếm cho từ khóa: "
+msgid "All"
+msgstr ""
 
-#: header.php:114
-#: searchform.php:2
+#: header.php:130
 #@ ytc
-msgid "Search..."
-msgstr "Tìm kiếm..."
+msgid "Post"
+msgstr ""
 
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:53
+#: header.php:138
 #@ ytc
-msgid "Select a background color"
-msgstr "Chọn một màu nền"
+msgid "Product"
+msgstr ""
 
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:60
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:50
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:56
+#: inc/function-utility.php:10
 #@ ytc
-msgid "Select a category"
-msgstr "Chọn 1 chuyên mục"
+msgid "&laquo; Previous Posts"
+msgstr ""
 
-#: header.php:55
-#: header.php:167
+#: inc/function-utility.php:13
 #@ ytc
-msgid "Select a page"
-msgstr "Chọn 1 trang"
+msgid "Next Posts &raquo;"
+msgstr ""
 
-#: functions.php:182
+#: inc/function-utility.php:27
 #@ ytc
-msgid "Shop Sidebar"
-msgstr "Sidebar chính của Shop"
+msgid "Read more..."
+msgstr ""
 
-#: functions.php:172
+#: inc/related-post.php:38
 #@ ytc
-msgid "Single Blog Post Sidebar"
-msgstr "Sidebar bài viết"
+msgid "Related posts"
+msgstr ""
 
-#: functions.php:192
+#: inc/related-video.php:44
 #@ ytc
-msgid "Single Product Sidebar"
-msgstr "Sidebar sản phẩm đơn"
+msgid "Related Videos"
+msgstr ""
 
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:38
+#: inc/video-post-type/video-post-type.php:76
 #@ ytc
-msgid "Social Network"
-msgstr "Mạng xã hội"
+msgid "Video Embed"
+msgstr ""
 
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:129
+#: inc/video-post-type/video-post-type.php:82
 #@ ytc
-msgid "Stumbleupon:"
-msgstr "Stumbleupon:"
+msgid "Video Embed Url"
+msgstr ""
 
-#: content-single.php:59
+#: inc/video-post-type/video-post-type.php:83
 #@ ytc
-msgid "Tags: "
-msgstr "Các thẻ: "
+msgid "Ex"
+msgstr ""
 
-#: functions.php:164
+#: inc/video-post-type/video-post-type.php:92
 #@ ytc
-msgid "The blog sidebar area"
-msgstr "Vùng sidebar của trang Blog"
+msgid "Video Width"
+msgstr ""
 
-#: functions.php:134
+#: inc/video-post-type/video-post-type.php:102
 #@ ytc
-msgid "The footer column sidebar 1 area"
-msgstr "Vùng sidebar cột thứ 1 của footer"
+msgid "Video Heigh"
+msgstr ""
 
-#: functions.php:144
+#: inc/video-post-type/video-post-type.php:216
 #@ ytc
-msgid "The footer column sidebar 2 area"
-msgstr "Vùng sidebar code thứ 2 của footer"
+msgid "Video Name"
+msgstr ""
 
-#: functions.php:154
+#: inc/video-post-type/video-post-type.php:217
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:26
 #@ ytc
-msgid "The footer column sidebar 3 area"
-msgstr "Vùng sidebar code thứ 3 của footer"
+msgid "Category"
+msgstr ""
 
-#: functions.php:104
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:8
 #@ ytc
-msgid "The homepage column sidebar 1 area"
-msgstr "Vùng sidebar cột 1 của trang chủ"
+msgid "Displays Ad 370x120 Sidebar Widget"
+msgstr ""
 
-#: functions.php:114
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:31
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:31
 #@ ytc
-msgid "The homepage column sidebar 2 area"
-msgstr "Vùng sidebar cột 2 của trang chủ"
+msgid "Advertising"
+msgstr ""
 
-#: functions.php:124
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:34
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:37
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:34
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:37
 #@ ytc
-msgid "The homepage sidebar area"
-msgstr "Vùng sidebar chính của trang chủ"
-
-#: functions.php:204
-#@ ytc
-msgid "The normal page sidebar area"
-msgstr "Vùng sidebar của trang bình thường"
-
-#: functions.php:184
-#@ ytc
-msgid "The shop sidebar area"
-msgstr "Vùng sidebar chính của shop"
-
-#: functions.php:174
-#@ ytc
-msgid "The single blog post sidebar area"
-msgstr "Vùng sidebar của bài viết đơn"
-
-#: functions.php:194
-#@ ytc
-msgid "The single product sidebar area"
-msgstr "Vùng sidebar của trang sản phẩm đơn"
-
-#: comments.php:11
-#@ ytc
-msgid "This post is password protected. Enter password to view the comments."
-msgstr "Bài này đã được bảo vệ bằng mật khẩu. Điền mật khẩu để xem các bình luận."
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:65
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:65
-#@ ytc
-msgid "Title 1:"
-msgstr "Tiêu đề 1:"
-
-#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:80
-#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:80
-#@ ytc
-msgid "Title 2:"
-msgstr "Tiêu đề 2:"
+msgid "Click to view this advertising."
+msgstr ""
 
 #: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:50
 #: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:50
@@ -565,100 +474,325 @@ msgstr "Tiêu đề 2:"
 #: inc/widget/ytc-video-widget/ytc-video-widget.php:49
 #@ ytc
 msgid "Title:"
-msgstr "Tiêu đề:"
+msgstr ""
 
-#: functions.php:89
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:55
 #@ ytc
-msgid "Top Menu"
-msgstr "Top Menu"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:134
-#@ ytc
-msgid "Tumblr:"
-msgstr "Tumblr:"
-
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:84
-#@ ytc
-msgid "Twitter:"
-msgstr "Twitter:"
+msgid "Image Link 1 (370x120):"
+msgstr ""
 
 #: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:60
 #: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:60
 #@ ytc
 msgid "Url 1:"
-msgstr "Link 1:"
+msgstr ""
+
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:65
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:65
+#@ ytc
+msgid "Title 1:"
+msgstr ""
+
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:70
+#@ ytc
+msgid "Image Link 2 (370x120)"
+msgstr ""
 
 #: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:75
 #: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:75
 #@ ytc
 msgid "Url 2:"
-msgstr "Link 2:"
+msgstr ""
 
-#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:139
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:80
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:80
 #@ ytc
-msgid "Vimeo:"
-msgstr "Vimeo:"
+msgid "Title 2:"
+msgstr ""
 
-#: functions.php:350
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:108
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:115
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:108
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:115
 #@ ytc
-msgid "Website"
-msgstr "Website"
+msgid "Click here to view this ad."
+msgstr ""
 
-#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:55
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:109
+#: inc/widget/adribbon-ad-widget/adribbon-ad-300-widget.php:116
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:109
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:116
 #@ ytc
-msgid "Yellow"
-msgstr "Vàng"
+msgid "Ad Image"
+msgstr ""
 
-#: comments.php:5
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:8
 #@ ytc
-msgid "You cannot access this file directly."
-msgstr "Bạn không thể truy cập trực tiếp tập tin này."
+msgid "Displays Ad Sidebar Widget"
+msgstr ""
 
-#: functions.php:318
-#, php-format
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:55
 #@ ytc
-msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
-msgstr "Bạn có thể sử dụng các thẻ <abbr title=\"HyperText Markup Language\">HTML</abbr> và thuộc tính: %s"
+msgid "Image Link 1 (110x110):"
+msgstr ""
 
-#: functions.php:303
+#: inc/widget/adribbon-ad-widget/adribbon-ad-widget.php:70
 #@ ytc
-msgid "Your comment is awaiting moderation."
-msgstr "Bình luận của bạn đang chờ kiểm tra."
+msgid "Image Link 2 (110x110)"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:8
+#@ ytc
+msgid "Displays Social Sidebar Widget"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:38
+#@ ytc
+msgid "Social Network"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:79
+#@ ytc
+msgid "Facebook:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:84
+#@ ytc
+msgid "Twitter:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:89
+#@ ytc
+msgid "Google Plus:"
+msgstr ""
 
 #: inc/widget/adribbon-social-widget/adribbon-social-widget.php:94
 #@ ytc
 msgid "Youtube:"
-msgstr "Youtube:"
+msgstr ""
 
-#: functions.php:293
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:99
 #@ ytc
-msgid "at"
-msgstr "lúc"
+msgid "Pinterest:"
+msgstr ""
 
-#: functions.php:293
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:104
 #@ ytc
-msgid "on"
-msgstr "vào"
+msgid "Digg:"
+msgstr ""
 
-#: header.php:130
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:109
 #@ ytc
-msgid "Post"
-msgstr "Blog"
+msgid "Dribbble:"
+msgstr ""
 
-#: header.php:138
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:114
 #@ ytc
-msgid "Product"
-msgstr "Sản phẩm"
+msgid "Flickr:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:119
+#@ ytc
+msgid "Linkedin:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:124
+#@ ytc
+msgid "Picasa:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:129
+#@ ytc
+msgid "Stumbleupon:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:134
+#@ ytc
+msgid "Tumblr:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:139
+#@ ytc
+msgid "Vimeo:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:144
+#@ ytc
+msgid "Instagram:"
+msgstr ""
+
+#: inc/widget/adribbon-social-widget/adribbon-social-widget.php:149
+#@ ytc
+msgid "Rss:"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:8
+#@ ytc
+msgid "Display Category Post Widget"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:51
+#@ ytc
+msgid "Background color:"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:53
+#@ ytc
+msgid "Select a background color"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:54
+#@ ytc
+msgid "Red"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:55
+#@ ytc
+msgid "Yellow"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:56
+#@ ytc
+msgid "Green"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:57
+#@ ytc
+msgid "Orange"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:58
+#@ ytc
+msgid "Blue"
+msgstr ""
 
 #: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:64
 #@ ytc
 msgid "Custom background color (enter hex color code here)"
-msgstr "Màu nền (điền mã hex màu vào đây) "
+msgstr ""
 
 #: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:69
 #@ ytc
 msgid "Custom text color (enter hex color code here)"
-msgstr "Màu chữ (điền mã hex màu vào đây)"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:74
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:58
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:48
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:54
+#@ ytc
+msgid "Category:"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:90
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:83
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:104
+#@ ytc
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widget/ytc-category-post-widget/ytc-category-post-widget.php:160
+#@ ytc
+msgid "More post..."
+msgstr ""
+
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:8
+#@ ytc
+msgid "Display Combo Post Widget which includes popular posts and recent posts"
+msgstr ""
+
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:26
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:85
+#@ ytc
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:27
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:86
+#@ ytc
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:48
+#@ ytc
+msgid "Popular Posts Title:"
+msgstr ""
+
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:53
+#@ ytc
+msgid "Recent Posts Title:"
+msgstr ""
+
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:60
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:50
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:56
+#@ ytc
+msgid "Select a category"
+msgstr ""
+
+#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:75
+#@ ytc
+msgid "Number of posts to show each tab:"
+msgstr ""
+
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:8
+#@ ytc
+msgid "Display Recent Post Widget, each post has its thumbnail"
+msgstr ""
+
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:25
+#@ ytc
+msgid "Recent Post"
+msgstr ""
+
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:66
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:72
+#@ ytc
+msgid "Recent"
+msgstr ""
+
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:69
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:75
+#@ ytc
+msgid "Popular"
+msgstr ""
+
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:72
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:78
+#@ ytc
+msgid "Random"
+msgstr ""
+
+#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:78
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:84
+#@ ytc
+msgid "Shuffle the result"
+msgstr ""
+
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:8
+#@ ytc
+msgid "Display Video Widget"
+msgstr ""
+
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:89
+#@ ytc
+msgid "Style:"
+msgstr ""
+
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:91
+#@ ytc
+msgid "Normal"
+msgstr ""
+
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:94
+#@ ytc
+msgid "Columns"
+msgstr ""
+
+#: inc/widget/ytc-video-widget/ytc-video-widget.php:99
+#@ ytc
+msgid "Use lightbox for playing video (only for columns style)"
+msgstr ""
 
 #: option-tree/includes/ot-functions-admin.php:83
 #@ option-tree
@@ -2257,149 +2391,15 @@ msgstr ""
 msgid "What's a layout anyhow?"
 msgstr ""
 
+#: search-all.php:12
+#: search-post.php:12
+#: search-video.php:12
+#@ ytc
+msgid "Search Results for: "
+msgstr ""
+
 #: woocommerce/woocommerce-config.php:9
 #@ woocommerce
 msgid "Vietnamese Dong (VND)"
-msgstr ""
-
-#: archive-video.php:12
-#: header.php:146
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:27
-#@ ytc
-msgid "Video"
-msgstr "Video"
-
-#: functions.php:212
-#@ ytc
-msgid "404 Page Sidebar"
-msgstr "Sidebar trang 404"
-
-#: functions.php:214
-#@ ytc
-msgid "The 404 page sidebar area"
-msgstr "Vùng sidebar trang 404"
-
-#: functions.php:222
-#@ ytc
-msgid "Video Page Sidebar"
-msgstr "Sidebar trang video"
-
-#: functions.php:224
-#@ ytc
-msgid "The video page sidebar area"
-msgstr "Vùng Sidebar trang video"
-
-#: functions.php:232
-#@ ytc
-msgid "Single Video Page Sidebar"
-msgstr "Sidebar trang video đơn"
-
-#: functions.php:234
-#@ ytc
-msgid "The single video page sidebar area"
-msgstr "Vùng Sidebar trang video đơn"
-
-#: inc/related-video.php:44
-#@ ytc
-msgid "Related Videos"
-msgstr "Các Video liên quan"
-
-#: inc/video-post-type/video-post-type.php:76
-#@ ytc
-msgid "Video Embed"
-msgstr "Video nhúng"
-
-#: inc/video-post-type/video-post-type.php:82
-#@ ytc
-msgid "Video Embed Url"
-msgstr "Url của video nhúng"
-
-#: inc/video-post-type/video-post-type.php:92
-#@ ytc
-msgid "Video Width"
-msgstr "Chiều dài Video"
-
-#: inc/video-post-type/video-post-type.php:102
-#@ ytc
-msgid "Video Heigh"
-msgstr "Chiều cao Video"
-
-#: inc/video-post-type/video-post-type.php:216
-#@ ytc
-msgid "Video Name"
-msgstr "Tên Video"
-
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:48
-#@ ytc
-msgid "Popular Posts Title:"
-msgstr "Tiêu đề các bài viết phổ biến:"
-
-#: inc/widget/ytc-combo-post-widget/ytc-combo-post-widget.php:53
-#@ ytc
-msgid "Recent Posts Title:"
-msgstr "Tiêu đề các bài viết mới nhất:"
-
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:66
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:72
-#@ ytc
-msgid "Recent"
-msgstr "Mới nhất"
-
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:69
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:75
-#@ ytc
-msgid "Popular"
-msgstr "Phổ biến"
-
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:72
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:78
-#@ ytc
-msgid "Random"
-msgstr "Ngẫu nhiên"
-
-#: inc/widget/ytc-recent-post-widget/ytc-recent-post-widget.php:78
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:84
-#@ ytc
-msgid "Shuffle the result"
-msgstr "Tráo kết quả"
-
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:8
-#@ ytc
-msgid "Display Video Widget"
-msgstr "Hiển thị widget cho video"
-
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:89
-#@ ytc
-msgid "Style:"
-msgstr "Kiểu:"
-
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:91
-#@ ytc
-msgid "Normal"
-msgstr "Thường"
-
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:94
-#@ ytc
-msgid "Columns"
-msgstr "Cột"
-
-#: inc/widget/ytc-video-widget/ytc-video-widget.php:99
-#@ ytc
-msgid "Use lightbox for playing video (only for columns style)"
-msgstr "Sử dụng lightbox để chạy video (chỉ áp dụng cho kiểu cột)"
-
-#: inc/video-post-type/video-post-type.php:83
-#@ ytc
-msgid "Ex"
-msgstr "Ví dụ"
-
-#: header.php:124
-#@ ytc
-msgid "All"
-msgstr "Tất cả"
-
-#: footer.php:41
-#@ ytc
-msgid "Proudly powered by WordPress"
 msgstr ""
 
