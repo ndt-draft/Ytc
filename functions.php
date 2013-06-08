@@ -159,66 +159,6 @@ if (function_exists('register_sidebar')) {
     ));
 
     register_sidebar(array(
-        'name' => __('Small Footer Column Sidebar 1', 'ytc'),
-        'id' => 'small-footer-column-1-sidebar',
-        'description' => __('The first small footer column sidebar area', 'ytc'),
-        'before_widget' => '<div class="sidebar-widget">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4 class="widget-title">',
-        'after_title' => '</h4>'
-    ));
-
-    register_sidebar(array(
-        'name' => __('Small Footer Column Sidebar 2', 'ytc'),
-        'id' => 'small-footer-column-2-sidebar',
-        'description' => __('The second small footer column sidebar area', 'ytc'),
-        'before_widget' => '<div class="sidebar-widget">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4 class="widget-title">',
-        'after_title' => '</h4>'
-    ));
-
-    register_sidebar(array(
-        'name' => __('Small Footer Column Sidebar 3', 'ytc'),
-        'id' => 'small-footer-column-3-sidebar',
-        'description' => __('The third small footer column sidebar area', 'ytc'),
-        'before_widget' => '<div class="sidebar-widget">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4 class="widget-title">',
-        'after_title' => '</h4>'
-    ));
-
-    register_sidebar(array(
-        'name' => __('Small Footer Column Sidebar 4', 'ytc'),
-        'id' => 'small-footer-column-4-sidebar',
-        'description' => __('The fourth small footer column sidebar area', 'ytc'),
-        'before_widget' => '<div class="sidebar-widget">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4 class="widget-title">',
-        'after_title' => '</h4>'
-    ));
-
-    register_sidebar(array(
-        'name' => __('Small Footer Column Sidebar 5', 'ytc'),
-        'id' => 'small-footer-column-5-sidebar',
-        'description' => __('The fifth small footer column sidebar area', 'ytc'),
-        'before_widget' => '<div class="sidebar-widget">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4 class="widget-title">',
-        'after_title' => '</h4>'
-    ));
-
-    register_sidebar(array(
-        'name' => __('Small Footer Column Sidebar 6', 'ytc'),
-        'id' => 'small-footer-column-6-sidebar',
-        'description' => __('The sixth small footer column sidebar area', 'ytc'),
-        'before_widget' => '<div class="sidebar-widget">',
-        'after_widget' => '</div>',
-        'before_title' => '<h4 class="widget-title">',
-        'after_title' => '</h4>'
-    ));
-
-    register_sidebar(array(
         'name' => __('Blog Main Sidebar', 'ytc'),
         'id' => 'blog-sidebar',
         'description' => __('The blog sidebar area', 'ytc'),

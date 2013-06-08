@@ -12,7 +12,7 @@
 
                     if (!empty($sliders) && $display_home_slider == 'true') {
                         require(get_template_directory() . '/inc/featured-slider/featured-slider.php'); 
-                    } 
+                    }
                     ?>
 
                     <div class="column-sidebar-wrap row-fluid">

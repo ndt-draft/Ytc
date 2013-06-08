@@ -7,32 +7,17 @@
                     
                     <?php get_sidebar('footer-column-1'); ?>
 
-                    <div class="row-fluid">
-                        <div class="span6"><?php get_sidebar('small-footer-column-1'); ?></div>
-                        <div class="span6"><?php get_sidebar('small-footer-column-2'); ?></div>
-                    </div>
-
                 </div> <!-- .footer-sidebar-column -->
 
                 <div class="footer-sidebar-column span4">
                     
                     <?php get_sidebar('footer-column-2'); ?>
 
-                    <div class="row-fluid">
-                        <div class="span6"><?php get_sidebar('small-footer-column-3'); ?></div>
-                        <div class="span6"><?php get_sidebar('small-footer-column-4'); ?></div>
-                    </div>
-
                 </div> <!-- .footer-sidebar-column -->
 
                 <div class="footer-sidebar-column span4">
                     
                     <?php get_sidebar('footer-column-3'); ?>
-
-                    <div class="row-fluid">
-                        <div class="span6"><?php get_sidebar('small-footer-column-5'); ?></div>
-                        <div class="span6"><?php get_sidebar('small-footer-column-6'); ?></div>
-                    </div>
 
                 </div> <!-- .footer-sidebar-column -->
             </div> <!-- .footer-sidebar .row -->
@@ -53,7 +38,7 @@
                         print $footer_left_text;
                     else : ?>
                 
-                        <p>&copy; <?php echo date('Y'); ?> <a href=""><?php bloginfo('name'); ?></a>. <?php _e('All right reserved.', 'ytc'); ?></p>
+                        <p>&copy; <?php echo date('Y'); ?> <a href=""><?php bloginfo('name'); ?></a>. <?php _e('Proudly powered by WordPress', 'ytc'); ?></p>
                 
                     <?php endif; ?>
 
@@ -67,7 +52,7 @@
                         print $footer_right_text;
                     else : ?>
                 
-                        <a class="top-link" href="#top"><?php _e('Go to Top', 'ytc'); ?></a>
+                        <a class="top-link" href="#top">&uarr;Top</a>
                     <?php endif; ?>
                     
                 </div>

@@ -1,3 +1,7 @@
+<?php 
+include_once(ABSPATH . 'wp-admin/includes/plugin.php');
+$woocommerceExists = is_plugin_active('woocommerce/woocommerce.php'); 
+?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -124,6 +128,8 @@
                                     <?php if (isset($_GET['post_type']) && $_GET['post_type'] == 'post')
                                         echo 'checked'; ?>>
                                     <label for="post_type_post"><?php _e('Post', 'ytc'); ?></label>
+
+                                <?php if ($woocommerceExists) : ?>
                                     
                                 <input id="post_type_product" type="radio" 
                                     name="post_type" value="product"
@@ -131,6 +137,8 @@
                                         echo 'checked';  ?>>
                                     <label for="post_type_product"><?php _e('Product', 'ytc'); ?></label>
                                 
+                                <?php endif; ?>
+
                                 <input id="post_type_video" type="radio" 
                                     name="post_type" value="video"
                                     <?php if (isset($_GET['post_type']) && $_GET['post_type'] == 'video')

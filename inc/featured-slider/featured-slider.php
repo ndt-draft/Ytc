@@ -11,15 +11,6 @@ wp_enqueue_style('flexslider_style');
             
             <?php foreach($sliders as $slider) : ?>
 
-
-                <?php
-                    // if (trim($slider['link']) == '')
-                    //     $slider['link'] = home_url();
-
-                    if (trim($slider['image']) == '')
-                        $slider['image'] = 'http://placehold.it/742x371';
-                ?>
-
                 <?php if ($slider['type'] == 'image') : ?>
                     <li>
                         <?php if (trim($slider['link']) != '') : ?><a href="<?php echo $slider['link']; ?>"><?php endif; ?>
